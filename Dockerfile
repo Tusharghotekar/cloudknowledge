@@ -1,6 +1,6 @@
-FROM ubuntu 
-MAINTAINER tusharghotekar92@gmail.com 
-RUN apt-get update 
-RUN apt-get install –y nginx 
-CMD [“echo”,”Image created”] 
+FROM centos:latest
+MAINTAINER tusharghotekar92@gmail.com
+RUN yum install -y httpd\
+ADD https://templatemo.com/tm-589-lugx-gaming
+WORKDIR /var/www/html
 EXPOSE 80
