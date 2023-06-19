@@ -1,6 +1,6 @@
-FROM centos:latest
-MAINTAINER tusharghotekar92@gmail.com
-RUN yum install -y httpd\
-ADD https://freewebsitetemplates.com/preview/rehabilitation-yoga/
-WORKDIR /var/www/html
+FROM ubuntu 
+MAINTAINER tusharghotekar92@gmail.com 
+RUN apt-get update 
+RUN apt-get install –y nginx 
+CMD [“echo”,”Image created”] 
 EXPOSE 80
