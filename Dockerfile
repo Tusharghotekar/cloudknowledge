@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER tusharghotekar92@gmail.com
 RUN yum install -y httpd\
-ADD https://templatemo.com/tm-589-lugx-gaming
+ADD https://freewebsitetemplates.com/preview/rehabilitation-yoga/
 WORKDIR /var/www/html
 EXPOSE 80
